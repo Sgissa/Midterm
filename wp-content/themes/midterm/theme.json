@@ -1,0 +1,19 @@
+{
+    "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+    "version": 3,
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "palette": [
+                {"color": "#E6ECF1", "name": "Background", "slug": "background"},
+                {"color": "#3498D8", "name": "Primary", "slug": "primary"},
+                {"color": "#FA970A", "name": "Secondary", "slug": "secondary"}
+            ]
+        }
+    },
+    "styles": {
+        "color": {
+            "background": "var:preset|color|background"
+        }
+    }
+}   

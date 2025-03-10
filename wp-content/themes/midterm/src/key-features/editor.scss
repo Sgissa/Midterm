@@ -1,0 +1,20 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+
+.feature {
+	display: flex;
+	gap: 56px;
+
+}
+
+.features-container {
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	gap: 182px;
+}
+

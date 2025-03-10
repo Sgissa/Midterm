@@ -1,0 +1,86 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+section {
+	justify-self: center;
+}
+.theOneAboveAll {
+	width: 1300px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #3498D8;
+}
+
+.nav-container {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	color: #000000;
+
+	nav {
+		justify-content: space-between;
+	}
+	ul {
+		display: flex;
+		align-items: center;
+		list-style: none;
+		justify-content: space-around;
+
+		li{
+
+			a {
+				color: #000000;
+				margin-left: 15px;
+				text-decoration: none;
+			}	
+		}
+
+		
+	}
+}
+
+.search-tool {
+	display: flex;
+	gap: 17px;
+	margin-right: 20px;
+	align-items: center;
+}
+
+.search-btn {
+	width: 108px;
+	height: 40px;	
+	padding: 12px 20px;
+	background-color: #000000;
+	color: white;
+	border-style: none;
+}
+
+.search-bar {
+	width: 154px;
+	height: 40px;
+}
+
+.button-holder {
+	display: flex;
+}
+
+.signup-btn {
+	width: 84;
+	background-color: transparent;
+	color: #000000;
+	text-shadow: 3px 3px 15px rgb(0, 0, 0.3);
+	border-style: none;
+}
+
+.login-btn {
+	width: 84;
+	height: 40px;
+	padding: 12px 20px;
+	background-color: #000000;
+	color: white;
+	border-style: none;
+	border-radius: 100px;
+}
+
